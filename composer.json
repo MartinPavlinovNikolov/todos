@@ -8,7 +8,7 @@
             "email": "Martin_Nikolov.89@abv.bg"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
       "psr-4": {
