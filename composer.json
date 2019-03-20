@@ -14,5 +14,12 @@
       "psr-4": {
         "Marto\\Todos\\": "src/"
       }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Marto\\Todos\\TodosServiceProvider"
+        ]
+      }
     }
 }
