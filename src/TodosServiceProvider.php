@@ -8,13 +8,14 @@ class TodosServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-       $this->loadRoutesFrom(__DIR__.'/routes/web.php'); 
-       $this->loadViewsFrom(__DIR__.'/views', 'todos');
-       $this->mergeConfigFrom(__DIR__.'/config/todos.php', 'todos');
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php'); 
+        $this->loadViewsFrom(__DIR__.'/views', 'todos');
+
+        \Blade::component('todos::components.todos', 'todos');
     }
 
     public function register()
     {
-        
+
     }
 }
