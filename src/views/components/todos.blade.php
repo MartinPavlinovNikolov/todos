@@ -1,5 +1,5 @@
-<script src="{{URL::asset('js/vue.js')}}"></script>
-<script src="{{URL::asset('js/axios.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <style>
 .btn-circle{
     border-radius: 50%;
